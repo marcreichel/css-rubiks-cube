@@ -5,16 +5,19 @@
 }
 
 html {
-    perspective: 20rem;
+    perspective: 30rem;
     overflow: hidden;
 }
 
 @keyframes rotateScene {
     0% {
-        transform: rotateX(0) rotateY(-90deg);
+        transform: rotateX(0deg) rotateY(0);
+    }
+    50% {
+        transform: rotateX(180deg) rotateY(360deg);
     }
     100% {
-        transform: rotateX(360deg) rotateY(270deg);
+        transform: rotateX(360deg) rotateY(720deg);
     }
 }
 
@@ -23,7 +26,7 @@ body {
     min-height: 100vh;
     transform-style: preserve-3d;
     background: #111;
-    animation: rotateScene 15s linear infinite;
+    animation: rotateScene 20s linear infinite;
 }
 
 .container {
