@@ -83,27 +83,27 @@ body {
 }
 
 .cube.middle.white {
-    transform: translateX(0) translateZ(0) translateY(-4em);
+    transform: translateY(-4em);
 }
 
 .cube.middle.red {
-    transform: translateX(0) translateZ(4em) translateY(0);
+    transform: translateZ(4em);
 }
 
 .cube.middle.green {
-    transform: translateX(-4em) translateZ(0) translateY(0);
+    transform: translateX(-4em);
 }
 
 .cube.middle.orange {
-    transform: translateX(0) translateZ(-4em) translateY(0);
+    transform: translateZ(-4em);
 }
 
 .cube.middle.blue {
-    transform: translateX(4em) translateZ(0) translateY(0);
+    transform: translateX(4em);
 }
 
 .cube.middle.yellow {
-    transform: translateX(0) translateZ(0) translateY(4em);
+    transform: translateY(4em);
 }
 
 .cube.corner.corner-white-red-green {
@@ -139,51 +139,51 @@ body {
 }
 
 .cube.edge.edge-white-red {
-    transform: translateX(0) translateZ(4em) translateY(-4em);
+    transform: translateZ(4em) translateY(-4em);
 }
 
 .cube.edge.edge-white-green {
-    transform: translateX(-4em) translateZ(0) translateY(-4em);
+    transform: translateX(-4em) translateY(-4em);
 }
 
 .cube.edge.edge-white-blue {
-    transform: translateX(4em) translateZ(0) translateY(-4em);
+    transform: translateX(4em) translateY(-4em);
 }
 
 .cube.edge.edge-white-orange {
-    transform: translateX(0) translateZ(-4em) translateY(-4em);
+    transform: translateZ(-4em) translateY(-4em);
 }
 
 .cube.edge.edge-red-green {
-    transform: translateX(-4em) translateZ(4em) translateY(0);
+    transform: translateX(-4em) translateZ(4em);
 }
 
 .cube.edge.edge-green-orange {
-    transform: translateX(-4em) translateZ(-4em) translateY(0);
+    transform: translateX(-4em) translateZ(-4em);
 }
 
 .cube.edge.edge-orange-blue {
-    transform: translateX(4em) translateZ(-4em) translateY(0);
+    transform: translateX(4em) translateZ(-4em);
 }
 
 .cube.edge.edge-blue-red {
-    transform: translateX(4em) translateZ(4em) translateY(0);
+    transform: translateX(4em) translateZ(4em);
 }
 
 .cube.edge.edge-yellow-red {
-    transform: translateX(0) translateZ(4em) translateY(4em);
+    transform: translateZ(4em) translateY(4em);
 }
 
 .cube.edge.edge-yellow-green {
-    transform: translateX(-4em) translateZ(0) translateY(4em);
+    transform: translateX(-4em) translateY(4em);
 }
 
 .cube.edge.edge-yellow-orange {
-    transform: translateX(0) translateZ(-4em) translateY(4em);
+    transform: translateZ(-4em) translateY(4em);
 }
 
 .cube.edge.edge-yellow-blue {
-    transform: translateX(4em) translateZ(0) translateY(4em);
+    transform: translateX(4em) translateY(4em);
 }
 
 .cube.corner.corner-white-red-green > .side.top,
