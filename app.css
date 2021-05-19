@@ -5,7 +5,7 @@
 }
 
 html {
-    perspective: 30rem;
+    perspective: 50rem;
     overflow: hidden;
 }
 
@@ -25,7 +25,7 @@ body {
     margin: 0;
     min-height: 100vh;
     transform-style: preserve-3d;
-    background: #111;
+    background: black;
     animation: rotateScene 30s linear infinite;
 }
 
@@ -52,6 +52,7 @@ body {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
+    backface-visibility: hidden;
     background: #444;
     position: absolute;
     box-shadow: inset 0 0 12px 0 #000, inset 0 0 0 6px #444;
@@ -62,7 +63,7 @@ body {
 }
 
 .cube > .side.back {
-    transform: translateZ(-2em);
+    transform: translateZ(-2em) rotateX(180deg);
 }
 
 .cube > .side.left {
@@ -74,11 +75,11 @@ body {
 }
 
 .cube > .side.top {
-    transform: translateY(-2em) rotateX(-90deg);
+    transform: translateY(-2em) rotateX(90deg);
 }
 
 .cube > .side.bottom {
-    transform: translateY(2em) rotateX(90deg);
+    transform: translateY(2em) rotateX(-90deg);
 }
 
 .cube.middle.white {
