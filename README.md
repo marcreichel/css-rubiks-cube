@@ -29,6 +29,9 @@ Open `index.html` in your browser.
 
 * [ ] Rotate Rubik's Cube by hand (via drag and drop or touch)
 
+## Known Issues
+
+* Currently broken on latest Chrome version
 
 ## Contributing
 
